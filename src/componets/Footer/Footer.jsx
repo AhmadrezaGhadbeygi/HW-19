@@ -10,9 +10,29 @@ function Footer() {
 
 
 </div>
-<div className="w-1/2">
+<div className="w-1/2 flex justify-evenly">
 
+<ul className="flex flex-col gap-2 " >
+<li className="text-green-800">Discovery</li>
+<li className="text-white">New season</li>
+<li className="text-white">Most searched</li>
+<li className="text-white">Most selled</li>
 
+</ul>
+<ul className="flex flex-col gap-2 " >
+<li className="text-green-800">About</li>
+<li className="text-white">Help</li>
+<li className="text-white">Shipping</li>
+<li className="text-white">Affiliate</li>
+
+</ul>
+<ul className="flex flex-col gap-2 " >
+<li className="text-green-800">Info</li>
+<li className="text-white">Contact us</li>
+<li className="text-white">Privacy Policies</li>
+<li className="text-white">Terms & Conditions</li>
+
+</ul>
 
     
 </div>
